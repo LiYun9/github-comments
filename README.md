@@ -48,7 +48,7 @@ gc.load('liyun9/test0', 4, '#demo')
 </script>
 ```
 
-
+fork自：        https://github.com/nimojs/github-comments  
 灵感来自：      http://fex.baidu.com/webuploader/demo.html  
 全站使用示例：  http://fmsjs.org/
 
