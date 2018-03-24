@@ -1,18 +1,18 @@
 # Github 留言系统
 
-[在线预览](http://nimojs.github.io/github-comments/)
+[在线预览](http://liyun9.github.io/github-comments/)
 
 让评论质量更高，让网站与 Github 关联
 适合程序员的评论系统，基于 Github issues 留言
 
-[![preview](https://cloud.githubusercontent.com/assets/3949015/11060115/1892a24c-87d9-11e5-80a0-651c60f90875.png)](http://nimojs.github.io/github-comments/)
+[![preview](https://cloud.githubusercontent.com/assets/3949015/11060115/1892a24c-87d9-11e5-80a0-651c60f90875.png)](http://liyun9.github.io/github-comments/)
 
 ## 使用
 ### data-api
 ```html
 <style>.gc-comments {font:12px/1.5 Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif}</style>
 <script src="https://unpkg.com/github-comments/gc.js"></script>
-<div class="gc-comments" data-repos="nimojs/github-comments" data-issues="1" >
+<div class="gc-comments" data-repos="liyun9/test0" data-issues="4" >
     <div class="gc-comments-title">
         评论
     </div>
@@ -22,7 +22,7 @@
 </div>
 ```
 
-`issues_link` 会自动替换成 `https://github.com/nimojs/github-comments/issues/1`
+`issues_link` 会自动替换成 `https://github.com/liyun9/github-comments/issues/4`
 
 ### gc.load()
 
@@ -36,15 +36,15 @@ githubComments.load(repos, issues, element, noCommentsTip)
 
 | 参数 | 说明 | 示例 |
 | --- | --- | ---- |
-| repos | 项目地址 |[nimojs/blog](http://github.com/nimojs/blog) |
-| issues| issues id | [2](https://github.com/nimojs/blog/issues/2)
+| repos | 项目地址 |[nimojs/blog](http://github.com/liyun9/test0) |
+| issues| issues id | [2](https://github.com/liyun9/test0/issues/4)
 | element | 渲染容器 | `"#demo"` `document.getElementById('demo')` `$('#demo')` |
 
 ```
 <div id="demo"></div>
 <script src="https://unpkg.com/github-comments@0.4.0/gc.js"></script>
 <script>
-gc.load('nimojs/blog', 2, '#demo')
+gc.load('liyun9/test0', 2, '#demo')
 </script>
 ```
 
@@ -56,7 +56,7 @@ gc.load('nimojs/blog', 2, '#demo')
 ### 参与开发
 
 ```shell
-git clone https://github.com/nimojs/github-comments.git
+git clone https://github.com/liyun9/test0.git
 cd github-comments
 npm i --registry=https://registry.npm.taobao.org
 # server
