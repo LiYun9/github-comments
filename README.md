@@ -37,14 +37,14 @@ githubComments.load(repos, issues, element, noCommentsTip)
 | 参数 | 说明 | 示例 |
 | --- | --- | ---- |
 | repos | 项目地址 |[nimojs/blog](http://github.com/liyun9/test0) |
-| issues| issues id | [2](https://github.com/liyun9/test0/issues/4)
+| issues| issues id | [4](https://github.com/liyun9/test0/issues/4)
 | element | 渲染容器 | `"#demo"` `document.getElementById('demo')` `$('#demo')` |
 
 ```
 <div id="demo"></div>
 <script src="https://unpkg.com/github-comments@0.4.0/gc.js"></script>
 <script>
-gc.load('liyun9/test0', 2, '#demo')
+gc.load('liyun9/test0', 4, '#demo')
 </script>
 ```
 
